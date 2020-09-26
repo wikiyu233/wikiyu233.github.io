@@ -10,6 +10,8 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   </a>
   <a href="https://weibo.com/yuxiaokai5618">
     <i class="fab fa-weibo"></i>
+  <a href="https://http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
+    <i class="fab fa-qq"></i>
   </a>
   <iframe
     src="https://music.163.com/outchain/player?type=2&id=167758&auto=1&height=32"
