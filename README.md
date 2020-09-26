@@ -14,7 +14,7 @@
 
 ## 我的博客
 
-这里是我的博客， **余说**。这个博客诞生于2020年，主要记录我的生活。你可以通过**[RSS](https://wikiyu233.github.io/feed.xml)**
+这里是我的博客，**余说**。这个博客诞生于2020年，主要记录我的生活。你可以通过**[RSS](https://wikiyu233.github.io/feed.xml)**订阅。
 
 <!-- .slide vertical=true -->
 
