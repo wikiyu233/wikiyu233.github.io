@@ -469,10 +469,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             prepend: <i class="fas fa-clock fa-fw"></i>
             unit: 分
             divided_by: 300 # 正常人的阅读速度大概每分钟三百个字
-          visitor: # 需要引入并开启valine的visitor选项使之开始计数; 可能会和busuanzi统计的有出入
-            enable: true
-            prepend: <i class="fas fa-book-reader fa-fw"></i>
-            unit: 次
           tags: # 显示博文标签
             enable: true
             prepend: <i class="fas fa-tag fa-fw"></i>
@@ -490,7 +486,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: false
           count: true # 统计每个标签下文章的数量
           toc: # 在正文里显示一个标签的目录
-            enable: false
+            enable: true
         archive:
           group_by: "%Y年%m月%d日" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
@@ -500,7 +496,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: false
           year_count: true
           toc: # 在正文里显示一个归档的目录
-            enable: false
+            enable: true
         merger: # 打赏页，需要配置！
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
