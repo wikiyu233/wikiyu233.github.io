@@ -1,11 +1,11 @@
 title: 余说 # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-   一位普通学生<br/>
-   用博客记录生活<br/>
+  一位普通学生<br/>
+  用博客记录生活<br/>
   <br/>
-   我明白，<br/>
-   每当闭眼一分钟，<br/>
-   就失去60秒的光亮。<br/>
+  我明白，<br/>
+  每当闭眼一分钟，<br/>
+  就失去60秒的光亮。<br/>
   <a href="mailto:mickey5618@outlook.com">
     <i class="fas fa-envelope"></i>
   </a>
@@ -152,7 +152,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://s1.ax1x.com/2020/09/26/0P8j4e.jpg # 头像的地址
+              img: https://sm.ms/image/iTYmekOoBGLfclM # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 关于'
                 href: /
