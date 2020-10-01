@@ -1,6 +1,6 @@
 ---
 layout: pagewithfoot
-title: 归档
+title: 随想
 permalink: /somethink/
 ---
 
