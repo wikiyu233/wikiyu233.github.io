@@ -2,6 +2,10 @@ title: 余说 # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   一位普通学生<br/>
   用博客记录生活<br/>
+  <br/>
+  我明白，<br/>
+  每当闭眼一分钟，<br/>
+  就失去60秒的光亮。<br/>
   <a href="mailto:mickey5618@outlook.com">
     <i class="fas fa-envelope"></i>
   </a>
@@ -13,15 +17,6 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
     <i class="fab fa-qq"></i>
   </a>
-  <iframe
-    src="https://music.163.com/outchain/player?type=2&id=167758&auto=1&height=32"
-    width=100%
-    height=52
-    frameborder="no"
-    border="0"
-    marginwidth="0"
-    marginheight="0"
-  ></iframe>
 url: https://wikiyu233.github.io # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -157,21 +152,17 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://s1.ax1x.com/2020/09/26/0P8j4e.jpg # 头像的地址
+              img: https://s1.ax1x.com/2020/10/01/0QppTO.jpg # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
-              - title: '<i class="fas fa-home fa-fw"></i> 首页'
+              - title: '<i class="fas fa-home fa-fw"></i> 关于'
                 href: /
-              - title: '<i class="fas fa-comments fa-fw"></i> 留言'
-                href: /comments/
               - title: '<i class="fas fa-tags fa-fw"></i> 标签'
                 href: /tags/
               - title: '<i class="fas fa-archive fa-fw"></i> 归档'
                 href: /archive/
-              - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
-                href: /merger/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
-              full_text_search: false # 可能导致缓慢的搜索和加载
+              full_text_search: true # 可能导致缓慢的搜索和加载
               append: | # 如果看不懂就不改
                 <style>
                   #sidebar-search-input {
@@ -187,7 +178,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
                 <input
                   id="sidebar-search-input"
-                  placeholder="搜索"
+                  placeholder="搜索所有博文......"
                 />
                 <ol
                   id="sidebar-search-results-container"
@@ -473,17 +464,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             prepend: <i class="fas fa-clock fa-fw"></i>
             unit: 分
             divided_by: 300 # 正常人的阅读速度大概每分钟三百个字
-          visitor: # 需要引入并开启valine的visitor选项使之开始计数; 可能会和busuanzi统计的有出入
-            enable: true
-            prepend: <i class="fas fa-book-reader fa-fw"></i>
-            unit: 次
           tags: # 显示博文标签
             enable: true
             prepend: <i class="fas fa-tag fa-fw"></i>
           copyright:
-            <br/>
-            <i class="fas fa-coffee fa-fw"></i>
-            <a href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
             <br/>
             <i class="fab fa-creative-commons-by fa-fw"></i>
             <a
@@ -497,9 +481,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: false
           count: true # 统计每个标签下文章的数量
           toc: # 在正文里显示一个标签的目录
-            enable: false
+            enable: true
         archive:
-          group_by: "%b %Y" # 见<https://liquid.bootcss.com/filters/date/>
+          group_by: "%Y年%m月%d日" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
             enable: true # 博文数量统计
             append: 篇博文。 # 提示语
@@ -507,7 +491,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: false
           year_count: true
           toc: # 在正文里显示一个归档的目录
-            enable: false
+            enable: true
         merger: # 打赏页，需要配置！
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
