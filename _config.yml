@@ -3,6 +3,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   一位普通学生<br/>
   用博客记录生活<br/>
   <br/>
+  我明白，<br/>
   每当闭眼一分钟，<br/>
   就失去60秒的光亮。<br/>
   <a href="mailto:mickey5618@outlook.com">
@@ -16,15 +17,6 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
     <i class="fab fa-qq"></i>
   </a>
-  <iframe
-    src="https://music.163.com/outchain/player?type=2&id=167758&auto=1&height=32"
-    width=100%
-    height=52
-    frameborder="no"
-    border="0"
-    marginwidth="0"
-    marginheight="0"
-  ></iframe>
 url: https://wikiyu233.github.io # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
