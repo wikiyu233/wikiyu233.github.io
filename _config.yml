@@ -17,6 +17,15 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
     <i class="fab fa-qq"></i>
   </a>
+    <iframe
+    src="https://music.163.com/outchain/player?type=0&id=4982100720&auto=0&height=32"
+    width=100%
+    height=52
+    frameborder="no"
+    border="0"
+    marginwidth="0"
+    marginheight="0"
+  ></iframe>
 url: https://wikiyu233.github.io # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -159,7 +168,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - title: '<i class="fas fa-tags fa-fw"></i> 标签'
                 href: /tags/
               - title: '<i class="fas fa-archive fa-fw"></i> 归档'
-                href: /archive/
+                href: /blog/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: true # 可能导致缓慢的搜索和加载
@@ -483,7 +492,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           toc: # 在正文里显示一个标签的目录
             enable: true
         archive:
-          group_by: "%Y年%m月%d日" # 见<https://liquid.bootcss.com/filters/date/>
+          group_by: "%Y年 %m月%d日" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
             enable: true # 博文数量统计
             append: 篇博文。 # 提示语
