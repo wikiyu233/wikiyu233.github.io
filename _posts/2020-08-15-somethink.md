@@ -1,5 +1,5 @@
 ---
-layout: pagewithfoot
+layout: page
 title: 随想
 permalink: /somethink/
 ---
