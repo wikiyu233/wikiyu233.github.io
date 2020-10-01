@@ -159,16 +159,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               enable: true
               img: https://s1.ax1x.com/2020/09/26/0P8j4e.jpg # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
-              - title: '<i class="fas fa-home fa-fw"></i> 首页'
+              - title: '<i class="fas fa-home fa-fw"></i> 关于'
                 href: /
-              - title: '<i class="fas fa-comments fa-fw"></i> 留言'
-                href: /comments/
               - title: '<i class="fas fa-tags fa-fw"></i> 标签'
                 href: /tags/
               - title: '<i class="fas fa-archive fa-fw"></i> 归档'
                 href: /archive/
-              - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
-                href: /merger/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
@@ -187,7 +183,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
                 <input
                   id="sidebar-search-input"
-                  placeholder="搜索"
+                  placeholder="搜索所有博文......"
                 />
                 <ol
                   id="sidebar-search-results-container"
@@ -482,9 +478,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             prepend: <i class="fas fa-tag fa-fw"></i>
           copyright:
             <br/>
-            <i class="fas fa-coffee fa-fw"></i>
-            <a href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
-            <br/>
             <i class="fab fa-creative-commons-by fa-fw"></i>
             <a
               href="https://creativecommons.org/licenses/by/4.0/deed.zh"
@@ -499,7 +492,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           toc: # 在正文里显示一个标签的目录
             enable: false
         archive:
-          group_by: "%b %Y" # 见<https://liquid.bootcss.com/filters/date/>
+          group_by: "%Y年%m月%d日" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
             enable: true # 博文数量统计
             append: 篇博文。 # 提示语
