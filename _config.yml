@@ -13,7 +13,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   </a>
   <a href="https://weibo.com/yuxiaokai5618">
     <i class="fab fa-weibo"></i>
-  <a href="https://http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
+  <a href="http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
     <i class="fab fa-qq"></i>
   </a>
     <iframe
@@ -166,8 +166,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /
               - title: '<i class="fas fa-tags fa-fw"></i> 标签'
                 href: /tags/
-              - title: '<i class="fas fa-archive fa-fw"></i> 归档'
+              - title: '<i class="fas fa-archive fa-fw"></i> 博客'
                 href: /blog/
+              - title: '<i class="fas fa-rss fa-fw"></i> RSS'
+                href: /feed.xml
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: true # 可能导致缓慢的搜索和加载
@@ -486,7 +488,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             （除特别声明或转载文章外）
         tags:
           pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
-            enable: false
+            enable: true
           count: true # 统计每个标签下文章的数量
           toc: # 在正文里显示一个标签的目录
             enable: true
@@ -496,7 +498,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: true # 博文数量统计
             append: 篇博文。 # 提示语
           pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
-            enable: false
+            enable: true
           year_count: true
           toc: # 在正文里显示一个归档的目录
             enable: true
