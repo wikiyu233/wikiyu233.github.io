@@ -1,15 +1,13 @@
-我是**余文凯**，浙江省龙泉市人，出生于2008年8月9日。
- - 是一个喜爱折腾新事物的人。
- - 是一个拥有博客的人。
-<!-- .slide vertical=true -->
-## 个人作品
-<!-- .slide vertical=true -->
-### 水青谈（博客）
-诞生于`2020`年，目前使用`jekyll-theme-WuK`模板搭建，以记录生活为主。
-博客文章在CC BY 4.0许可下发布（特别声明除外），未经本人许可，请勿用于商务用途。
-<!-- .slide vertical=true -->
-### 刹那·永恒
-一系列的慢镜头和延时摄影，带你发现身边的美。
-<!-- .slide vertical=true -->
-### 设计杂谈
-业余设计爱好者对设计的思考。
+## 余文凯
+浙江省龙泉市人，出生于2008年8月9日。
+是一个喜爱折腾新事物的人。
+  <a href="mailto:mickey5618@outlook.com">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="https://github.com/iaknew">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://weibo.com/yuxiaokai5618">
+    <i class="fab fa-weibo"></i>
+  <a href="http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
+    <i class="fab fa-qq"></i>
