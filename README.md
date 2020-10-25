@@ -14,8 +14,8 @@
   <a href="http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
     <i class="fab fa-qq"></i>
 
-  <a href="https://wikiyu233.github.io/blog/">
-    博客</a>
+  <a href="https://wikiyu233.github.io/articles/">
+    文章</a>
   </a>
   <a href="https://wikiyu233.github.io/about-me">
     更多</a>
