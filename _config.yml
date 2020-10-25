@@ -510,7 +510,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <script>
                 var usage = "payment";
                 var wechat = "wxp://f2f0H9kcIewhFxLWB2VIcu49XMjWdr1XyePu";
-                var myname = "Wenkai Yu";
+                var myname = "余文凯";
                 var profile = "https://sm.ms/image/lRqSzdP6sLyuZ3M";
                 var multilingual = true;
                 var myname_hans = "余文凯";
@@ -518,7 +518,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 var myname_eng = "Wenkai Yu";
                 var title = "打赏";
                 var subtitle = "跟随进一步的指示以向" + myname + "付款";
-                var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
               </script>
             - |
               <meta
