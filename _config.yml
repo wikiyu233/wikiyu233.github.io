@@ -164,10 +164,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
+              - title: '<i class="fas fa-archive fa-fw"></i> 文章'
+                href: /articles/ 
               - title: '<i class="fas fa-tags fa-fw"></i> 标签'
                 href: /tags/
-              - title: '<i class="fas fa-archive fa-fw"></i> 博客'
-                href: /blog/
               - title: '<i class="fas fa-rss fa-fw"></i> RSS'
                 href: /feed.xml
               - title: '<i class="fas fa-info fa-fw"></i> 关于我'
