@@ -548,12 +548,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               value: <!-- .slide -->
             - key: data-separator-vertical # 垂直展示页分隔符
               value: <!-- .slide vertical=true -->
-             - key: data-background-color
-              value: "White"
           prepend: |
             <link
               rel="stylesheet"
-              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.css,npm/reveal.js@4.0.2/dist/theme/serif.min.css"
+              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.css,npm/reveal.js@4.0.2/dist/theme/black.min.css"
             />
             <style>
               .sidebar {
@@ -562,8 +560,36 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               .reveal .slides {
                 text-align: left;
               }
+              .reveal h1 {
+                font-family: SimSun, Yu Mincho;
+                color: #FFFFCF;
+              }
+              .reveal h2 {
+                font-family: SimSun, Yu Mincho;
+                color: #FFFFCF;
+              }
+              .reveal h3 {
+                font-family: SimSun, Yu Mincho;
+                color: #FFFFCF;
+              }
+              .reveal h4 {
+                font-family: SimSun, Yu Mincho;
+                color: #FFFFCF;
+              }
               .reveal a {
-                color: #268BD2;
+                color: #6495ED;
+              }
+              .reveal p {
+                font-family: SimSun, Yu Mincho;
+                color: #CFFFFF;
+              }
+              .reveal ul {
+                font-family: SimSun, Yu Mincho;
+                color: #CFFFFF;
+              }
+              .reveal strong {
+                font-family: SimSun, Yu Mincho;
+                color: #CCFFFF;
               }
             </style>
           append: |
