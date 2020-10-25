@@ -347,7 +347,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
-                  2020-" + d.getFullYear() + " 余文凯
+                  余文凯
                 </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
@@ -548,10 +548,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               value: <!-- .slide -->
             - key: data-separator-vertical # 垂直展示页分隔符
               value: <!-- .slide vertical=true -->
+            - key: data-background-color
+              value: "White"
           prepend: |
             <link
               rel="stylesheet"
-              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.css,npm/reveal.js@4.0.2/dist/theme/black.min.css"
+              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.css,npm/reveal.js@4.0.2/dist/theme/serif.min.css"
             />
             <style>
               .sidebar {
@@ -560,36 +562,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               .reveal .slides {
                 text-align: left;
               }
-              .reveal h1 {
-                font-family: SimSun, Yu Mincho;
-                color: #FFFFCF;
-              }
-              .reveal h2 {
-                font-family: SimSun, Yu Mincho;
-                color: #FFFFCF;
-              }
-              .reveal h3 {
-                font-family: SimSun, Yu Mincho;
-                color: #FFFFCF;
-              }
-              .reveal h4 {
-                font-family: SimSun, Yu Mincho;
-                color: #FFFFCF;
-              }
               .reveal a {
-                color: #6495ED;
-              }
-              .reveal p {
-                font-family: SimSun, Yu Mincho;
-                color: #CFFFFF;
-              }
-              .reveal ul {
-                font-family: SimSun, Yu Mincho;
-                color: #CFFFFF;
-              }
-              .reveal strong {
-                font-family: SimSun, Yu Mincho;
-                color: #CCFFFF;
+                color: #268BD2;
               }
             </style>
           append: |
@@ -597,12 +571,15 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               async="async"
               src="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.js,npm/reveal.js@4.0.2/plugin/markdown/markdown.min.js"
               onload="
-              document.getElementsByClassName('wrap')[0].classList.add('reveal');
+              for(let x of document.getElementsByClassName('wrap'))
+                x.classList.add('reveal');
               Reveal.initialize({
                 height: '100%',
                 hash: true,
                 mouseWheel: true,
                 navigationMode: 'linear',
+                previewLinks: true,
+                preloadIframes: true,
                 plugins: [ RevealMarkdown ]
               });
             "></script>
