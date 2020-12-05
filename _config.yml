@@ -32,7 +32,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
   - scope:
       path: "" # an empty string here means all files in the project
     values: # 以下配置项也可以在任意页面自定义
-      categories: "blog"
+      categories: "articles"
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           body:
@@ -486,12 +486,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               href="https://creativecommons.org/licenses/by/4.0/deed.zh"
               rel="license">
               CC BY 4.0
-            </a>
-             以及 
-            <a
-              href="https://wikiyu233.github.io/FRM"
-              rel="license">
-              FRM 许可
             </a>
             （除特别声明或转载文章外）
         tags:
