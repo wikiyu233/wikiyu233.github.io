@@ -609,6 +609,7 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-sitemap # 为站点生成站点地图
   - jekyll-feed # 为站点生成RSS源
   - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离，详见<https://github.com/benbalter/jekyll-remote-theme/>
+  - jemoji
 
 remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@4.0.1 #使用固定版本号以防止主题更新导致站点显示错乱
 
