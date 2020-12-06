@@ -502,42 +502,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           year_count: true
           toc: # 在正文里显示一个归档的目录
             enable: true
-        merger: # 打赏页，需要配置！
-          append_to_head:
-            - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
-              <script>
-                var usage = "payment";
-                var wechat = "wxp://f2f0H9kcIewhFxLWB2VIcu49XMjWdr1XyePu";
-                var myname = "余文凯";
-                var profile = "https://sm.ms/image/lRqSzdP6sLyuZ3M";
-                var multilingual = true;
-                var myname_hans = "余文凯";
-                var myname_hant = "余文凯;
-                var myname_eng = "Wenkai Yu";
-                var title = "打赏";
-                var subtitle = "跟随进一步的指示以向" + myname + "付款";
-              </script>
-            - |
-              <meta
-                charset="utf-8"
-              />
-              <meta
-                name="viewport"
-                content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-              />
-              <meta
-                http-equiv="Content-Security-Policy"
-                content="upgrade-insecure-requests"
-              />
-            - | # merger的页面样式
-              <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
-              />
-              <script
-                src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
-                defer='defer'
-              ></script>
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
