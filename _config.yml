@@ -188,7 +188,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
                 <input
                   id="sidebar-search-input"
-                  placeholder="搜索所有博文......"
+                  placeholder="🔍 搜索所有博文"
                 />
                 <ol
                   id="sidebar-search-results-container"
@@ -339,7 +339,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <a href="https://jekyll-theme-WuK.wu-kan.cn">
-                    jekyll-theme-WuK
+                    使用 jekyll-theme-WuK 主题
                   </a>
                 </div>
               - | # Copyright声明
@@ -550,7 +550,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           prepend: |
             <link
               rel="stylesheet"
-              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.css,npm/reveal.js@4.0.2/dist/theme/serif.min.css"
+              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.1.0/dist/reveal.min.css,npm/reveal.js@4.1.0/dist/theme/serif.min.css"
             />
             <style>
               .sidebar {
@@ -566,7 +566,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append: |
             <script
               async="async"
-              src="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.js,npm/reveal.js@4.0.2/plugin/markdown/markdown.min.js"
+              src="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.1.0/dist/reveal.min.js,npm/reveal.js@4.1.0/plugin/markdown/markdown.min.js,npm/reveal.js@4.1.0/plugin/math/math.min.js,npm/reveal.js@4.1.0/plugin/highlight/highlight.min.js"
               onload="
               for(let x of document.getElementsByClassName('wrap'))
                 x.classList.add('reveal');
@@ -575,9 +575,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 hash: true,
                 mouseWheel: true,
                 navigationMode: 'linear',
-                previewLinks: true,
-                preloadIframes: true,
-                plugins: [ RevealMarkdown ]
+                plugins: [ RevealMarkdown,RevealMath,RevealHighlight ]
               });
             "></script>
         page404:
