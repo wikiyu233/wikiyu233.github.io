@@ -2,6 +2,11 @@
 ## 关于
 由余文凯撰写的博客，创建于 2020 年，以文字为主。
 <!-- .slide vertical=true -->
+### 更多
+- [文章列表](https://imwky.github.io/articles/)
+- [标签](https://imwky.github.io/tags/)
+- [RSS](https://imwky.github.io/feed.xml)
+<!-- .slide vertical=true -->
 ## 博主简介
 余文凯，浙江省龙泉市人，出生于2008年8月9日。
 是一个喜爱折腾新事物的人。
