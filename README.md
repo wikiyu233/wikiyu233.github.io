@@ -4,7 +4,7 @@ layout: home
 ---
 ![icon|10](https://s3.ax1x.com/2020/12/06/DXkCfP.jpg)
 ## 关于
-由余文凯撰写的博客，创建于 2020 年，以文字为主。
+由<a href="#/0/2">余文凯</a>撰写的博客，创建于 2020 年，以文字为主。
 <!-- .slide vertical=true -->
 ### 更多
 [所有文章](/articles/)和[RSS](/feed.xml)。
