@@ -4,13 +4,15 @@ layout: home
 ---
 ![icon|10](https://s3.ax1x.com/2020/12/06/DXkCfP.jpg)
 ## 关于
-由[余文凯](https://imwky.github.io/#/0/2)撰写的博客，创建于 2020 年，以文字为主。
+由余文凯撰写的博客，创建于 2020 年，以文字为主。
 <!-- .slide vertical=true -->
 ### 更多
-- [文章列表](https://imwky.github.io/articles/)
-- [标签](https://imwky.github.io/tags/)
-- [RSS](https://imwky.github.io/feed.xml)
+[所有文章](/articles/)和[RSS](/feed.xml)。
+
+![](https://img.shields.io/badge/dynamic/json?color=2bb24c&label=Feedly&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dfeedly%26queryKey%3Dhttps%3A%2F%2Fimwky.github.io%2Ffeed.xml&logo=feedly&style=for-the-badge)
+
 <!-- .slide vertical=true -->
+
 ## 博主简介
 余文凯，浙江省龙泉市人，出生于2008年8月9日。
 是一个喜爱折腾新事物的人。
