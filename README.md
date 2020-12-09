@@ -1,5 +1,5 @@
 ---
-title: 欢迎
+title: 关于
 layout: home
 ---
 ![icon|10](https://s3.ax1x.com/2020/12/06/DXkCfP.jpg)
