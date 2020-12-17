@@ -60,5 +60,7 @@ layout: home
     </li>
     {% endfor %}
 </ul>
+ 
+感谢 [袁勇](https://github.com/willard-yuan/willard-yuan.github.io/blob/master/cn/index.html) 的代码。
 <!-- .slide vertical=true -->
 
