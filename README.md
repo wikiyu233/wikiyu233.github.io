@@ -2,12 +2,6 @@
 title: 关于
 layout: home
 ---
-![icon|10](https://s3.ax1x.com/2020/12/06/DXkCfP.jpg)
-> 世人啊！我知道，人们都希望寄居山顶，殊不知，真正的快乐是攀登山峰的过程。
-
-*——加夫列尔·加西亚·马尔克斯*
-<!-- .slide vertical=true -->
-
 余文凯，浙江省龙泉市人，出生于2008年8月9日。
 是一个喜爱折腾新事物的人。
 <!-- .slide vertical=true -->
