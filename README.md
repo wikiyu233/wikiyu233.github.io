@@ -10,6 +10,20 @@ layout: home
 ## 关于
 由<a href="#/0/2">余文凯</a>撰写的博客，创建于 2020 年，以文字为主。
 <!-- .slide vertical=true -->
+### 近期文章
+<section class="inner">
+<div class="post-recents-in-index">
+</div>
+<blockquote>
+<ul>
+    {% for post in site.posts limit:3 %}
+    <li class="post-list-in-index">
+    <small class="post-list-date-in-index">{{ post.date | date_to_string }}</small><a  href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+ * 感谢 [袁勇](http://yongyuan.name/) 的代码。
+ 
 ### 更多
 [所有文章](/articles/)和[RSS](/feed.xml)。
 
