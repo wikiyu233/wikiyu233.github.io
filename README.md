@@ -22,8 +22,6 @@ layout: home
     </li>
     {% endfor %}
 </ul>
-* 感谢 [袁勇](http://yongyuan.name/) 的代码。
-
 
 ### 更多
 [所有文章](/articles/)和[RSS](/feed.xml)。
