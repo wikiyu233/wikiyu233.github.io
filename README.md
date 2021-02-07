@@ -2,8 +2,7 @@
 title: 关于
 layout: page
 ---
-<center>
- 
+<div align='center'>
 ![](https://s1.ax1x.com/2020/10/01/0QppTO.jpg)
 余文凯
   <a href="mailto:mickey5618@outlook.com">
@@ -17,23 +16,25 @@ layout: page
   </a>
   <a href="http://wpa.qq.com/msgrd?v=3&uin=3498735386&site=qq&menu=yes">
     <i class="fab fa-qq"></i>
-</center>
-
-
+</div>
+<div>
 浙江省龙泉市人，出生于2008年8月9日。
 是一个喜爱折腾新事物的人。
-
-### 个人技能
+</div>
+<h3>个人技能</h3>
+<div>
 我对 Microsoft Office 较为掌握，正在对 Markdown 进行探索。
 我现在正在学习C++。
-
-### 兴趣
- - 二次元文化。
- - 阅读。
- - 折腾电脑。
-
-### 个人价值观
- - 赞同“性恶论”，认为教育极为重要。
+</div>
+<h3>兴趣</h3>
+<div>
+我喜欢阅读，不过最近没怎么读。
+我喜欢折腾电脑。
+</div>
+<h3>个人价值观<h3>
+<div>
+我赞同“性恶论”，认为教育极为重要。
+</div>
 
 ### 订阅
 [![RSS](https://img.shields.io/badge/RSS-%E8%AE%A2%E9%98%85-ffa500?logo=rss&style=for-the-badge)](https://imwky.github.io/feed.xml)
