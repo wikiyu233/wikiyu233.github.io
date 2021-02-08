@@ -52,7 +52,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <link
                 rel="alternate"
                 href="/feed.xml"
-                title="RSS"
+                title="Wenkai's RSS"
                 type="application/rss+xml"
               />
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
@@ -164,14 +164,14 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-id-badge fa-fw"></i> 关于'
                 href: /
-              - title: '<i class="fas fa-archive fa-fw"></i> 文章'
-                href: /articles/ 
+              - title: '<i class="fas fa-archive fa-fw"></i> 博客'
+                href: /blog/ 
               - title: '<i class="fas fa-tags fa-fw"></i> 标签'
                 href: /tags/
               - title: '<i class="fas fa-rss fa-fw"></i> RSS'
                 href: /feed.xml
-              - title: '<i class="fas fa-music fa-fw"></i> 音乐'
-                href: /music/
+              - title: '<i class="fas fa-heart fa-fw"></i> 爱好'
+                href: /hobby/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: true # 可能导致缓慢的搜索和加载
