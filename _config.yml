@@ -470,11 +470,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           wordcount: # 统计全文字数
             enable: true
             prepend: <i class="fas fa-file-word fa-fw"></i>
-            unit: 字
+            unit: 字，不信你数数
           readtime: # 计算文章阅读时间
             enable: true
             prepend: <i class="fas fa-clock fa-fw"></i>
-            unit: 分钟
+            unit: 分钟，你读读看
             divided_by: 300 # 正常人的阅读速度大概每分钟三百个字
           tags: # 显示博文标签
             enable: true
@@ -495,7 +495,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           toc: # 在正文里显示一个标签的目录
             enable: true
         archive:
-          group_by: "%Y年 %m月%d日" # 见<https://liquid.bootcss.com/filters/date/>
+          group_by: "%Y年%m月" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
             enable: true # 博文数量统计
             append: 篇博文。 # 提示语
