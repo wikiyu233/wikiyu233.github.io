@@ -3,8 +3,17 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   一位普通学生<br/>
   用博客记录生活<br/>
   <br/>
-  每当闭眼一分钟，<br/>
-  就失去60秒的光亮。<br/>
+  <p id="hitokoto"><a href="#" id="hitokoto_text">:D 获取中...</a></p>
+  <script>
+    fetch('https://v1.hitokoto.cn')
+      .then(response => response.json())
+      .then(data => {
+        const hitokoto = document.getElementById('hitokoto_text')
+        hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+        hitokoto.innerText = data.hitokoto
+      })
+      .catch(console.error)
+</script>
   <a href="mailto:mickey5618@outlook.com">
     <i class="fas fa-envelope"></i>
   </a>
@@ -92,7 +101,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://s1.ax1x.com/2020/10/01/0MebI1.jpg);
+                  background-image: url(https://s3.ax1x.com/2021/02/09/yd7dpt.jpg);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
@@ -470,11 +479,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           wordcount: # 统计全文字数
             enable: true
             prepend: <i class="fas fa-file-word fa-fw"></i>
-            unit: 字，不信你数数
+            unit: 字
           readtime: # 计算文章阅读时间
             enable: true
             prepend: <i class="fas fa-clock fa-fw"></i>
-            unit: 分钟，你读读看
+            unit: 分钟
             divided_by: 300 # 正常人的阅读速度大概每分钟三百个字
           tags: # 显示博文标签
             enable: true
