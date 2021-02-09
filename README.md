@@ -4,7 +4,7 @@ layout: page
 ---
 > 我明白，每当闭眼一分钟，就失去60秒的光亮。——加夫列尔·加西亚·马尔克斯
 
-[![ydyGXq.png](https://s3.ax1x.com/2021/02/09/ydyGXq.png)](https://imgchr.com/i/ydyGXq)
+[![ydyGXq.png|50](https://s3.ax1x.com/2021/02/09/ydyGXq.png)](https://imgchr.com/i/ydyGXq)
 ## 余文凯
   <a href="mailto:mickey5618@outlook.com">
     <i class="fas fa-envelope"></i>
