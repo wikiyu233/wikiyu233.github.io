@@ -3,8 +3,17 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   一位普通学生<br/>
   用博客记录生活<br/>
   <br/>
-  每当闭眼一分钟，<br/>
-  就失去60秒的光亮。<br/>
+  <p id="hitokoto"><a href="#" id="hitokoto_text">:D 获取中...</a></p>
+  <script>
+    fetch('https://v1.hitokoto.cn')
+      .then(response => response.json())
+      .then(data => {
+        const hitokoto = document.getElementById('hitokoto_text')
+        hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+        hitokoto.innerText = data.hitokoto
+      })
+      .catch(console.error)
+</script>
   <a href="mailto:mickey5618@outlook.com">
     <i class="fas fa-envelope"></i>
   </a>
