@@ -246,6 +246,8 @@ GEM
     unicode-display_width (1.7.0)
     wdm (0.1.1)
 
+gem "activesupport", ">= 4.1.11"
+
 PLATFORMS
   ruby
 
