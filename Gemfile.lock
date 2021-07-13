@@ -4,7 +4,7 @@ GEM
     activesupport (3.2.22.5)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -246,14 +246,12 @@ GEM
     unicode-display_width (1.7.0)
     wdm (0.1.1)
 
-gem "activesupport", ">= 4.1.11"
-gem "nokogiri", ">= 1.11.0"
-
 PLATFORMS
   ruby
 
 DEPENDENCIES
   github-pages
+  jemoji
   tzinfo
   tzinfo-data
   wdm
